@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Server {
     public static void main(String[] args) throws IOException {
+
         ServerSocket server =  new ServerSocket(4444); // Created ServerSocket Object. Listening on port 4444.
 
         Socket client = server.accept(); // It provides communication between the client and the server when a connection is made (input and output data).
